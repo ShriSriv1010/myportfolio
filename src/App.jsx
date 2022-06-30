@@ -10,11 +10,15 @@ import Topbar from './components/topbar/Topbar';
 import Experience from './components/experience/Experience';
 import Volunteer from './components/experience/Volunteer';
 import Education from './components/educations/Education';
+import StatusBar from './components/status/StatusBar';
 
 
 const App = () => {
+
   return (
     <>
+    {/* Status bar component */}
+    <StatusBar></StatusBar>
       <Header />
       <Topbar />
       <Intro />
