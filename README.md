@@ -34,7 +34,7 @@
   git clone git@github.com:ankitjha-webdev/portfolio.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd portfolio`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
