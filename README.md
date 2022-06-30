@@ -12,14 +12,14 @@
 
 ## Live Demo
 
-- [Live Demo]()
+- [Live Demo](https://ankitkumarjha.herokuapp.com/)
 
 
 # Getting Started
 ## Prerequisites:
 
 
-- Create an account on github
+- Create an account on github and on Heroku
 
 - Install gitbash or use git on the command line.
 
@@ -29,7 +29,7 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository]() to your local machine 
+- Clone this [repository](https://github.com/ankitjha-webdev/portfolio.git) to your local machine 
 - ```
   git clone git@github.com:ankitjha-webdev/portfolio.git
   ```
