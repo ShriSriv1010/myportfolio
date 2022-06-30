@@ -6,6 +6,7 @@
 ## Built With
 
 - React
+- MaterialUi
 - CSS
 - VS code
 
@@ -30,7 +31,7 @@
 
 - Clone this [repository]() to your local machine 
 - ```
-  git clone git@github.com:Meri-MG/portfolio---react.git
+  git clone git@github.com:ankitjha-webdev/portfolio.git
   ```
 
 - Navigate to `cd portfolio---react`  directory.
@@ -47,17 +48,7 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+:man: **Ankit Kumar**
 
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
-
-## 🤝 Contributing
-- Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
-
-# Show your support
-Give a ⭐ if you like this project!
-
-# Acknowledgments
-Thanks to [EGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU&list=WL&index=55&t=1845s) tutotial!
+- [GitHub](https://github.com/ankitjha-webdev)
+- [LinkedIn](https://www.linkedin.com/in/ankitkumarcse/)
