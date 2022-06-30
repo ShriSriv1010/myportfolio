@@ -50,7 +50,7 @@ const Contact = () => {
           <textarea placeholder="Your message" rows="7" name="message" required></textarea>
           <button type="submit" className="btn btn-primary">Send Message</button>
          <div className="message">
-            {result ? notify()  : <p>Message not sent, Something is wrong</p> }
+            {result ? notify()  : null }
 
          </div>
           <ToastContainer
