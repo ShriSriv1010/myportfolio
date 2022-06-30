@@ -1,7 +1,7 @@
 # Personal-Portfolio
 > This is personal portfolio website.
 
-![Portfolio]()
+![Portfolio](https://github.com/ankitjha-webdev/portfolio/blob/main/demo.gif)
 
 ## Built With
 
