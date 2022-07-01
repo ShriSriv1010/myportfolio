@@ -1,5 +1,5 @@
 ---
-name: Build and Deploy React App to GitHub Pages
+name: Build and Deploy Portfolio App to GitHub Pages
 on:
   push:
     branches: [ main ]
@@ -20,7 +20,7 @@ jobs:
 
     - name: Deploy
       run: |
-        git config --global user.name 'Anton Putra'
-        git config --global user.email 'me@antonputra.com'
+        git config --global user.name 'ankitjha-webdev'
+        git config --global user.email '190101120091@cutm.ac.in'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
         npm run deploy
