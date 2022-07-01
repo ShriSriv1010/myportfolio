@@ -23,7 +23,7 @@ const Footer = () => {
       {/* <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><Showwcase /></a> */}
       </div>
       <div className="footer__copyright">
-        <small>Made by 💖 Ankit</small>
+        <small>Made 💖 by <a href="https://github.com/ankitjha-webdev">Ankit</a> </small>
       </div>
     </footer> 
   )

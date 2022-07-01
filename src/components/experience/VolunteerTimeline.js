@@ -39,7 +39,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1" >
               <h3>HackerEarth</h3>
               <h5>Campus Ambassador</h5>
-              <small>I joined as a project trainee at Motherson Sumi. The aim is to develop a fully functinol logistic managemnet system</small>
+              <small>I joined as a campus ambassador at HackerEarth. I work is to get aware about the company HackerEarth and Host the events on HackerEarth Platfrom. Till now I have hosted 6 events with 500+ student. All events went sucessfull. </small>
             </article>
           </div>
         </TimelineContent>
@@ -67,7 +67,7 @@ export default function VolunteerTimeline() {
             <h3>Centurion Coding Club</h3>
             
               <h5>Coordinator</h5>
-              <small>I got this internship from my college it self. The purpose of this internship is to develop successful web based home automation system.</small>
+              <small>I am a coding club cordinator which is locacted in my campus itself. I aslo lead a team where so many projects are going on.  </small>
             </article>
           </div>
         </TimelineContent>
@@ -96,7 +96,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1">
               <h3>Internshala</h3>
               <h5>Campus Ambassador</h5>
-              <small>I am individually working on this project. The purpose of this project is to develop Inventory managemnet system for the lab management.  </small>
+              <small>I had selected for the role of Campus Ambassador. My task to get aware about Internshala in my campus.  </small>
             </article>
           </div>
         </TimelineContent>
@@ -122,7 +122,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1" >
               <h3>LearnVern</h3>
               <h5>Campus Ambassador</h5>
-              <small>It is a learing based platform where we where My work was to share the link to others.  </small>
+              <small> I got this opportunity by registring multiple student from their website. I got the goodies from this website. </small>
             </article>
           </div>
         </TimelineContent>
