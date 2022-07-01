@@ -1,5 +1,5 @@
 # Personal-Portfolio
-> This is personal portfolio website.
+> My personal portfolio website.
 
 ![Portfolio](https://github.com/ankitjha-webdev/portfolio/blob/main/demo.gif)
 
