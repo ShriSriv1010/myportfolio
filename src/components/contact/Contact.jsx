@@ -4,7 +4,6 @@ import { MdOutlineEmail } from 'react-icons/md';
 import './contact.css';
 import { ToastContainer, toast } from 'material-react-toastify';
 import 'material-react-toastify/dist/ReactToastify.css';
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 
 const Contact = () => {
   
