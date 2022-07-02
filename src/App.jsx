@@ -16,13 +16,20 @@ const App = () => {
 
   return (
     <>
-    {/* Status bar component */}
+    {/* Status bar component  */}
+
     <StatusBar></StatusBar>
+    {/* Header component  */}
       <Header />
+      {/* Intro component  */}
       <Topbar />
+
+      {/* Portfolio component  */}
       <Intro />
+      {/* Projects component  */}
       <Education/>
       <Experience/>
+      
       <Volunteer/>
       <Projects />
       <Portfolio />
