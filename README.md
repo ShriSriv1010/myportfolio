@@ -12,7 +12,11 @@
 
 ## Live Demo
 
+<<<<<<< HEAD
 - [Live Demo](https://ankitkumar.tech)
+=======
+- [Live Demo](https://ankitkumar.tech/)
+>>>>>>> f3358078097c9fd96ccac4dc063e87368e411d88
 
 
 # Getting Started
