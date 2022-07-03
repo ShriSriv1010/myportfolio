@@ -10,6 +10,15 @@
   list-style: none;
   text-decoration: none;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #1d4a41;
+}
+
+::selection {
+  color: white;
+  background: #1d4a41;
+}
 
 :root {
   --color-bg: #08221d;

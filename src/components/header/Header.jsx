@@ -13,8 +13,10 @@ const Header = () => {
         <h5 className="text-light">Passionate about Full Stack Development</h5>
 
         <CTA />
+        
         <a href="#contact" className="scroll__down" style={{marginTop:"2rem"}} > Scroll Down</a>
         {/* <img src={scroll} className="scroll"/> */}
+        
         <HeaderSocials />
       </div>
     </header>

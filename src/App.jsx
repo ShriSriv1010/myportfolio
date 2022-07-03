@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
     {/* Status bar component  */}
-
+    
     <StatusBar></StatusBar>
     {/* Header component  */}
       <Header />

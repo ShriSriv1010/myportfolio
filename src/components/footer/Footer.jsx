@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
+import { AutoSoundPlay } from '../Auto/AutoSoundPlay';
 
 
 import './footer.css';
@@ -22,6 +23,7 @@ const Footer = () => {
       <a href="https://github.com/ankitjha-webdev" target="_blank" rel="noreferrer" ><FaGithub /></a>
       {/* <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><Showwcase /></a> */}
       </div>
+      <AutoSoundPlay/>
       <div className="footer__copyright">
         <small>Made 💖 by <a href="https://github.com/ankitjha-webdev">Ankit</a> </small>
       </div>
