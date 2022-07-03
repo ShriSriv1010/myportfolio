@@ -39,7 +39,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1" >
               <h3>HackerEarth</h3>
               <h5>Campus Ambassador</h5>
-              <small>I joined as a campus ambassador at HackerEarth. I work is to get aware about the company HackerEarth and Host the events on HackerEarth Platfrom. Till now I have hosted 6 events with 500+ student. All events went sucessfull. </small>
+              <small>I joined as a campus ambassador at HackerEarth. I work is to get aware about the company HackerEarth and Host the events on HackerEarth Platfrom. Till now I have hosted 6 events with 500+ student. All events went successful. </small>
             </article>
           </div>
         </TimelineContent>
@@ -67,7 +67,7 @@ export default function VolunteerTimeline() {
             <h3>Centurion Coding Club</h3>
             
               <h5>Coordinator</h5>
-              <small>I am a coding club cordinator which is locacted in my campus itself. I aslo lead a team where so many projects are going on.  </small>
+              <small>I am a coding club cordinator which is locacted in my campus itself. I also lead a team where I worked on some of the project like Coding Club Website and so on.   </small>
             </article>
           </div>
         </TimelineContent>
@@ -96,7 +96,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1">
               <h3>Internshala</h3>
               <h5>Campus Ambassador</h5>
-              <small>I had selected for the role of Campus Ambassador. My task to get aware about Internshala in my campus.  </small>
+              <small>I was selected for the role of campus ambassador. It is my job to make aware about the Internshala in my campus.  </small>
             </article>
           </div>
         </TimelineContent>
@@ -122,7 +122,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1" >
               <h3>LearnVern</h3>
               <h5>Campus Ambassador</h5>
-              <small> I got this opportunity by registring multiple student from their website. I got the goodies from this website. </small>
+              <small>I have got this opportunity by registering many students from their website and after completing it I got a gift from this internshala. </small>
             </article>
           </div>
         </TimelineContent>
@@ -148,7 +148,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1">  
               <h3>IMUNA</h3>
               <h5>Campus Ambassador</h5>
-              <small>The International Model United Nations Association (IMUNA) had given me a opportunity grow-up. Had lot of enjoy by tacking this opportunity. </small>
+              <small> The International Model United Nations Association (IMUNA) had given me a opportunity grow-up. Had lot of enjoy by taking this opportunity. </small>
             </article>
           </div>
         </TimelineContent>

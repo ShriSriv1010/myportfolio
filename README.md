@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-- [Live Demo](https://ankitkumarjha.herokuapp.com/)
+- [Live Demo](https://ankitkumar.tech)
 
 
 # Getting Started

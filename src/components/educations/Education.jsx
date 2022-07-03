@@ -15,15 +15,18 @@ const AntTabs = styled(Tabs)({
   marginBottom: '20px',
   width: '100%',
   margin: 'auto',
+  padding: '.5rem .5rem',
   height: '100%',
+  boxShadow: '0px 0px 10px #e8e8e8',
   '& .MuiTabs-indicator': {
     backgroundColor: '#2a7668',
     height: '30px',
     width: '30px',
-    borderRadius: '2rem',
+    borderRadius: '.5rem',
     marginTop: '10px',
     marginBottom: '10px',
     zIndex: '-5',
+   
   },
 });
 

@@ -44,7 +44,7 @@ export default function CustomizedTimeline() {
             <article className="about__card1" >
               <NetworkCellIcon className="about__icon1" /> <h3>Motherson Sumi</h3>
               <h5>Project Trainee</h5>
-              <small>I joined as a project trainee at Motherson Sumi. The aim is to develop a fully functinol logistic managemnet system</small>
+              <small> I joined Motherson Sumi as a Project Trainee. It aims to develop a fully functional Logistics Management System. </small>
             </article>
           </div>
         </TimelineContent>
@@ -72,7 +72,7 @@ export default function CustomizedTimeline() {
             <LanguageIcon className="about__icon1" /> <h3>Centurion University</h3>
             
               <h5>Web Developer</h5>
-              <small>I got this internship from my college it self. The purpose of this internship is to develop successful web based home automation system.</small>
+              <small> I got this internship from my college itself. The objective of this internship is to develop successful web based home automation systems.</small>
             </article>
           </div>
         </TimelineContent>
@@ -102,7 +102,7 @@ export default function CustomizedTimeline() {
               <AssuredWorkloadIcon className="about__icon1" />
               <h3>IIT Kharagpur</h3>
               <h5>Web Developer Intern</h5>
-              <small>I am individually working on this project. The purpose of this project is to develop Inventory managemnet system for the lab management.  </small>
+              <small> I am tete-a-tete working on this project. The objective of this project is to develop inventory management system for laboratory management.  </small>
             </article>
           </div>
         </TimelineContent>
@@ -130,7 +130,7 @@ export default function CustomizedTimeline() {
               <DirectionsBusIcon className="about__icon1" />
               <h3>Tan Man Foundation</h3>
               <h5>Web Developer</h5>
-              <small>I am currently working with the frontend team to develop react web application. The project is about to development a 3d based E-Commerce web Application. </small>
+              <small>I am currently working with frontend team to develop react web application. This project is about to develop a 3D based e-commerce web application </small>
             </article>
           </div>
         </TimelineContent>
@@ -158,7 +158,7 @@ export default function CustomizedTimeline() {
               <FoundationIcon className="about__icon1" />
               <h3>Suvidha Foundation</h3>
               <h5>Web Developer</h5>
-              <small>I worked as a web developer but I also designed a Learning Managemenr system website on Figma as well as Designed a MySql Database. </small>
+              <small> I worked as a web developer but I also designed a Learning Management System website on Figma as well as a MySql database. </small>
             </article>
           </div>
         </TimelineContent>
