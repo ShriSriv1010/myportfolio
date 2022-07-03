@@ -1,9 +1,9 @@
 import axios from 'axios'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const Visitor = () => {
     // counter for the visitor count
-    const [count, setCount] = React.useState(0)
+    const [count, setCount] = useState(0)
 
     const getCount = async () => {
         const response = await axios.get('https://api.countapi.xyz/hit/ankitkumar.tech/visits')

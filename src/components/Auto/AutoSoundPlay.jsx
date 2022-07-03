@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactAudioPlayer from 'react-audio-player';
 import song from '../../assets/song/fun-life-112188.mp3';
 export const AutoSoundPlay = () => {
@@ -10,7 +10,7 @@ export const AutoSoundPlay = () => {
                 autoPlay="true"
                 loop="true"
                 controls="true" 
-                preload="true"
+                preload="false"
             />
         </div>
         </>
