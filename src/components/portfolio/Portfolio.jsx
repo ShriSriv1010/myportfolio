@@ -30,7 +30,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Logistic Managemnet System',
+      title: 'Logistic Management System',
       img: IMG3,
       link: 'https://github.com/ankitjha-webdev/motherson_lms/tree/main/rate_masters',
       github: 'https://github.com/ankitjha-webdev/motherson_lms/tree/main/rate_masters',
@@ -81,6 +81,7 @@ const Portfolio = () => {
   
 
   return (
+    <>
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
@@ -101,6 +102,8 @@ const Portfolio = () => {
         ))}   
       </div>
     </section>
+
+    </>
   )
 }
 
