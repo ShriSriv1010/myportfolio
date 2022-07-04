@@ -7,11 +7,29 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 4rem;
+    border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    position: relative;
+    overflow: hidden;
     
+}
+.about__me::before {
+    content: '';
+    position: absolute;
+    inset:-80px;
+    background-image: conic-gradient(#2a7668 30deg, transparent 120deg);
+    animation: rotate 2s linear infinite;
+}
+.about__me::after {
+    content: '';
+    inset:8px;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
 }
 
 .about__me-image {
