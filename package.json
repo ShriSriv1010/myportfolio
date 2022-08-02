@@ -33,9 +33,9 @@
     "deploy": "gh-pages -d build"
   },
   "author": {
-    "name": "Sebastian Wierzchowski",
-    "email": "ankitkumarcse91@gmail.com",
-    "url": "",
+    "name": "Ankit Kumar",
+    "email": "contact@ankitkumar.tech",
+    "url": "https://ankitkumar.tech/",
     "github": "ankitjha-webdev",
     "linkedin": "ankitkumarcse"
   },
