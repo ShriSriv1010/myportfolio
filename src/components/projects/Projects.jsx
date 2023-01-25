@@ -5,7 +5,7 @@ import './projects.css';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The Skills I Have</h5>
+      <h5>The skills which I'm familiar with</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -26,6 +26,18 @@ const Experience = () => {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>React</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Redux & Redux ToolKit</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Angular</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>TypeScript</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />

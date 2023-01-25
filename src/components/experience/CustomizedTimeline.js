@@ -15,7 +15,6 @@ import Avatar from '@mui/material/Avatar';
 import './card.css'
 import motherson from '../../assets/motherson.png'
 import cutm from "../../assets/cutm.jpg"
-import iitkharagpur from '../../assets/iitkharagpur.png'
 import tanman from '../../assets/tanman.png'
 import suvida from '../../assets/suvida.png'
 export default function CustomizedTimeline() {
@@ -61,16 +60,16 @@ export default function CustomizedTimeline() {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot  sx={{ bgcolor: 'palette.error.main' }}>
-          <Avatar src={cutm} />
+          <TimelineDot sx={{ bgcolor: 'palette.error.main' }}>
+            <Avatar src={cutm} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px' }}>
           <div className="about__cards1" >
             <article className="about__card1">
-            <LanguageIcon className="about__icon1" /> <h3>Centurion University</h3>
-            
+              <LanguageIcon className="about__icon1" /> <h3>Centurion University</h3>
+
               <h5>Web Developer</h5>
               <small> I got this internship from my college itself. The objective of this internship is to develop successful web based home automation systems.</small>
             </article>
@@ -78,37 +77,9 @@ export default function CustomizedTimeline() {
         </TimelineContent>
       </TimelineItem>
 
-      {/*   IIT Khgaraghpur */}
-
+      {/* Tanman */}
       <TimelineItem>
-      <TimelineOppositeContent
-          sx={{ m: 'auto 0' }}
-          variant="body2"
-          color="text.white"
-        >
-          May 2022 - Present
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
-          <Avatar src={iitkharagpur}  sx={{ bgcolor: 'primary.light' }}/>
-          </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-
-          <div className="about__cards1" >
-            <article className="about__card1">
-              <AssuredWorkloadIcon className="about__icon1" />
-              <h3>IIT Kharagpur</h3>
-              <h5>Web Developer Intern</h5>
-              <small> I am tete-a-tete working on this project. The objective of this project is to develop inventory management system for laboratory management.  </small>
-            </article>
-          </div>
-        </TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-      <TimelineOppositeContent
+        <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
           color="text.white"
@@ -118,7 +89,7 @@ export default function CustomizedTimeline() {
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'primary.dark' }} />
           <TimelineDot color="warning">
-          <Avatar src={tanman} />
+            <Avatar src={tanman} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -137,7 +108,7 @@ export default function CustomizedTimeline() {
       </TimelineItem>
 
       <TimelineItem>
-      <TimelineOppositeContent
+        <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
           color="text.white"
@@ -147,7 +118,7 @@ export default function CustomizedTimeline() {
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'primary' }} />
           <TimelineDot color="success">
-          <Avatar src={suvida} />
+            <Avatar src={suvida} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -162,7 +133,7 @@ export default function CustomizedTimeline() {
             </article>
           </div>
         </TimelineContent>
-        
+
       </TimelineItem>
     </Timeline>
   );

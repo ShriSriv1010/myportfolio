@@ -7,7 +7,7 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 20rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
@@ -33,7 +33,7 @@
 }
 
 .about__me-image {
-    border-radius:20rem;
+    border-radius:50%;
     overflow: hidden;
     transform: rotate(10deg);
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.625);
@@ -44,12 +44,14 @@
     transform: rotate(0);
     /* transform: skew(2deg,2deg); */
 }
-
+.about__me-image img{
+    width:350px;
+    height:350px;
+}
 .about__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    
+    gap: 1.5rem;  
 }
 
 .about__card {

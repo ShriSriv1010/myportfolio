@@ -56,16 +56,16 @@ export default function VolunteerTimeline() {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot  sx={{ bgcolor: 'palette.error.main' }}>
-          <Avatar src={club} />
+          <TimelineDot sx={{ bgcolor: 'palette.error.main' }}>
+            <Avatar src={club} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px' }}>
           <div className="about__cards1" >
-            <article className="about__card1"> 
-            <h3>Centurion Coding Club</h3>
-            
+            <article className="about__card1">
+              <h3>Centurion Coding Club</h3>
+
               <h5>Coordinator</h5>
               <small>I am a coding club cordinator which is locacted in my campus itself. I also lead a team where I worked on some of the project like Coding Club Website and so on.   </small>
             </article>
@@ -76,7 +76,7 @@ export default function VolunteerTimeline() {
       {/*   Campus Ambassador Internshala */}
 
       <TimelineItem>
-      <TimelineOppositeContent
+        <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
           color="text.white"
@@ -86,7 +86,7 @@ export default function VolunteerTimeline() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary" variant="outlined">
-          <Avatar src={internshala}  sx={{ bgcolor: 'primary.light' }}/>
+            <Avatar src={internshala} sx={{ bgcolor: 'primary.light' }} />
           </TimelineDot>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
@@ -102,7 +102,7 @@ export default function VolunteerTimeline() {
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
-      <TimelineOppositeContent
+        <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
           color="text.white"
@@ -112,7 +112,7 @@ export default function VolunteerTimeline() {
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'primary.dark' }} />
           <TimelineDot color="warning">
-          <Avatar src={learnvern} />
+            <Avatar src={learnvern} />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -126,33 +126,6 @@ export default function VolunteerTimeline() {
             </article>
           </div>
         </TimelineContent>
-      </TimelineItem>
-
-      <TimelineItem>
-      <TimelineOppositeContent
-          sx={{ m: 'auto 0' }}
-          variant="body2"
-          color="text.white"
-        >
-          Jun 2021 - Aug 2021
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'primary' }} />
-          <TimelineDot color="success">
-          <Avatar src={imuna} />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <div className="about__cards1" >
-            <article className="about__card1">  
-              <h3>IMUNA</h3>
-              <h5>Campus Ambassador</h5>
-              <small> The International Model United Nations Association (IMUNA) had given me a opportunity grow-up. Had lot of enjoy by taking this opportunity. </small>
-            </article>
-          </div>
-        </TimelineContent>
-        
       </TimelineItem>
     </Timeline>
   );
