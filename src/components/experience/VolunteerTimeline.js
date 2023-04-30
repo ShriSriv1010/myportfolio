@@ -12,7 +12,7 @@ import HackerEarth from '../../assets/HackerEarth.png'
 import club from '../../assets/club.jpg'
 import internshala from '../../assets/internshala.jpg'
 import learnvern from '../../assets/learnvern.jpg'
-import imuna from '../../assets/imuna.jpg'
+// import imuna from '../../assets/imuna.jpg'
 export default function VolunteerTimeline() {
   return (
     <Timeline position="alternate">
@@ -39,7 +39,7 @@ export default function VolunteerTimeline() {
             <article className="about__card1" >
               <h3>HackerEarth</h3>
               <h5>Campus Ambassador</h5>
-              <small>I joined as a campus ambassador at HackerEarth. I work is to get aware about the company HackerEarth and Host the events on HackerEarth Platfrom. Till now I have hosted 6 events with 500+ student. All events went successful. </small>
+              <small>I joined as a campus ambassador at HackerEarth. I work is to get aware about the company HackerEarth and Host the events on HackerEarth Platform. Till now I have hosted 6 events with 500+ student. All events went successful. </small>
             </article>
           </div>
         </TimelineContent>

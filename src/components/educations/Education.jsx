@@ -6,8 +6,6 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import { Bachelor } from './Bachelor';
-import { Intermediate } from './Intermediate';
-import { Matriculation } from './Matriculation';
 
 const AntTabs = styled(Tabs)({
   borderBottom: '20px solid #e8e8e8',
@@ -113,7 +111,7 @@ export default function Education() {
       <Box sx={{ width: '22rem', marginX:'auto' }}>
         <Box sx={{}}>
           <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-            <AntTab label="Batchlor" {...a11yProps(0)} />
+            <AntTab label="Batc hlor" {...a11yProps(0)} />
             {/* <AntTab label="Intermediate" {...a11yProps(1)} />
             <AntTab label="Matriculation" {...a11yProps(2)} /> */}
           </AntTabs>

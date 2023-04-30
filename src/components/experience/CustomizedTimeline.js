@@ -7,14 +7,14 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import NetworkCellIcon from '@mui/icons-material/NetworkCell';
-import LanguageIcon from '@mui/icons-material/Language';
-import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
+// import LanguageIcon from '@mui/icons-material/Language';
+// import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import FoundationIcon from '@mui/icons-material/Foundation';
 import Avatar from '@mui/material/Avatar';
 import './card.css'
 import motherson from '../../assets/motherson.png'
-import cutm from "../../assets/cutm.jpg"
+// import cutm from "../../assets/cutm.jpg"
 import tanman from '../../assets/tanman.png'
 import suvida from '../../assets/suvida.png'
 export default function CustomizedTimeline() {
