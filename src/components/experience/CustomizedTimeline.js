@@ -43,14 +43,14 @@ export default function CustomizedTimeline() {
             <article className="about__card1" >
               <NetworkCellIcon className="about__icon1" /> <h3>Motherson Sumi</h3>
               <h5>Project Trainee</h5>
-              <small> I joined Motherson Sumi as a Project Trainee. It aims to develop a fully functional Logistics Management System. </small>
+              <small>  I have worked as a Project Trainee at Motherson Technology Services, where I contributed to the development of modules for the Rate Manager application for LMS. I also received recognition from project and tech leads for delivering high-quality work within the given deadlines.</small>
             </article>
           </div>
         </TimelineContent>
       </TimelineItem>
 
       {/* Cutm */}
-      <TimelineItem>
+      {/* <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
@@ -75,7 +75,7 @@ export default function CustomizedTimeline() {
             </article>
           </div>
         </TimelineContent>
-      </TimelineItem>
+      </TimelineItem> */}
 
       {/* Tanman */}
       <TimelineItem>
@@ -101,12 +101,12 @@ export default function CustomizedTimeline() {
               <DirectionsBusIcon className="about__icon1" />
               <h3>Tan Man Foundation</h3>
               <h5>Web Developer</h5>
-              <small>I am currently working with frontend team to develop react web application. This project is about to develop a 3D based e-commerce web application </small>
+              <small>I have also worked as a Web Development Intern at The Tan Mann Foundation and Suvida Foundation, where I developed an E-Commerce platform for virtual clothing try-ons and designed and developed student and home modules, respectively. These experiences allowed me to gain valuable insights into website design and implementation, user engagement, and e-commerce development.</small>
             </article>
           </div>
         </TimelineContent>
       </TimelineItem>
-
+      {/* Suvida */}
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -129,7 +129,11 @@ export default function CustomizedTimeline() {
               <FoundationIcon className="about__icon1" />
               <h3>Suvidha Foundation</h3>
               <h5>Web Developer</h5>
-              <small> I worked as a web developer but I also designed a Learning Management System website on Figma as well as a MySql database. </small>
+              <small> 
+              <b>Designed and developed:</b> the student and home modules using Figma and MySQL, respectively
+              <b>◦ Gained experience:</b> in website design and implementation
+              <b>◦ Received :</b> positive feedback and recognition from my supervisor for my contributions to the project
+              </small>
             </article>
           </div>
         </TimelineContent>

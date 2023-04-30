@@ -26,11 +26,11 @@ const Intro = () => {
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>20+ Completed Projects</small>
+              <a href="https://github.com/ankitjha-webdev?tab=repositories">Github</a>
             </article>
           </div>
           <p>
-
-          My aim is to build a successful career in the industry which will provide me with ample opportunities and knowledge, along with a professional environment and experience of working in various positions in my field. I wish to work in an organization where the opportunity for growth & learning are embraced. My strong belief is in hard work. It helps me in overcoming the hurdles. The key skill areas that I have gained during my training are project management skills like planning, organizing and coordination skills
+          As a Software Engineer at OdiTek Solutions, I am passionate about creating innovative solutions to complex problems and eager to continue developing my skills and making meaningful contributions to the field. With a strong foundation in computer science and a passion for programming languages, frameworks, and tools, I am dedicated to delivering high-quality software that meets the needs of users and clients alike. From collaborating with cross-functional teams to implementing new features and conducting code reviews, I am committed to excellence in every aspect of the software development lifecycle. With experience working on a range of projects using different programming languages, frameworks, and tools, I am constantly seeking new challenges and opportunities to grow as a developer.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

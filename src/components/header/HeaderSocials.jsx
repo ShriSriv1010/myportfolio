@@ -7,10 +7,10 @@ import { Visitor } from '../visitor/Visitor';
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <div className='visits'>
+      {/* <div className='visits'>
       <Visitor/>
        <small>Total Visits</small>
-      </div>
+      </div> */}
       <a href="https://www.linkedin.com/in/ankitkumarcse/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/ankitjha-webdev" target="_blank" rel="noreferrer" ><FaGithub /></a>
       {/* <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><FaAngellist /></a> */}

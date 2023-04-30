@@ -107,15 +107,15 @@ export default function Education() {
 
   return (
     <section>
-      <h5>The Education I Have</h5>
+      <h5>Where I graduated from!</h5>
       <h2> Education</h2>
       <div className="container" style={{ paddingTop: "0rem"}}>
       <Box sx={{ width: '22rem', marginX:'auto' }}>
         <Box sx={{}}>
           <AntTabs value={value} onChange={handleChange} aria-label="ant example">
             <AntTab label="Batchlor" {...a11yProps(0)} />
-            <AntTab label="Intermediate" {...a11yProps(1)} />
-            <AntTab label="Matriculation" {...a11yProps(2)} />
+            {/* <AntTab label="Intermediate" {...a11yProps(1)} />
+            <AntTab label="Matriculation" {...a11yProps(2)} /> */}
           </AntTabs>
           <Box sx={{ p: 2 }} />
         </Box>
@@ -123,12 +123,12 @@ export default function Education() {
         <TabPanel value={value} index={0}>
           <Bachelor/>
         </TabPanel>
-        <TabPanel value={value} index={1}>
+        {/* <TabPanel value={value} index={1}>
           <Intermediate/>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <Matriculation/>
-        </TabPanel>
+        </TabPanel> */}
         </div>
       </Box>
     </div>
