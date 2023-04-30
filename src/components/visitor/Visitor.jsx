@@ -6,10 +6,10 @@ export const Visitor = () => {
     var visitCount = localStorage.getItem("page_view");
     const [count, setCount] = useState(0)
 
-    // const getCount = async () => {
-    //     const response = await axios.get('https://api.countapi.xyz/hit/ankitkumar.tech/visits')
-    //     setCount(response.data.value)
-    // }
+    const getCount = async () => {
+        const response = await axios.get('https://api.countapi.xyz/hit/ankitkumar.tech/visits')
+        setCount(response.data.value)
+    }
     
     // Visitor Counter
     const visitorCounter = () =>{
