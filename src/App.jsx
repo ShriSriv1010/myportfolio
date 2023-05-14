@@ -28,11 +28,11 @@ const App = () => {
       <Intro />
       {/* Projects component  */}
       <Education/>
-      <Experience/>
+      {/* <Experience/> */}
       
-      <Volunteer/>
+      {/* <Volunteer/> */}
       <Projects />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact />
       <Footer />
     </>

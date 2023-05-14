@@ -94,7 +94,7 @@ const Portfolio = () => {
           </div>
           <h3>{pro.title}</h3>
           <div className="portfolio__item-cta">
-            <a href={pro.github} className="btn">GitHub</a>
+            <a href={"https://github.com/ShriSriv1010"} className="btn">GitHub</a>
             <a href={pro.link} className="btn btn-primary">Live Demo</a> 
           </div>
 

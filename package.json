@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://ankitkumar.tech/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +11,7 @@
     "@mui/material": "^5.8.6",
     "@react-icons/all-files": "^4.1.0",
     "axios": "^0.27.2",
+    "countapi-js": "^1.0.2",
     "gh-pages": "^4.0.0",
     "material-react-toastify": "^1.0.1",
     "react": "^18.2.0",
@@ -33,11 +33,9 @@
     "deploy": "gh-pages -d build"
   },
   "author": {
-    "name": "Ankit Kumar",
-    "email": "contact@ankitkumar.tech",
-    "url": "https://ankitkumar.tech/",
-    "github": "ankitjha-webdev",
-    "linkedin": "ankitkumarcse"
+    "name": "Shrijit Srivastav",
+    "email": "shrijitsrivastav@gmail.com",
+    "github": "shrisrivastav"
   },
   "eslintConfig": {
     "extends": [
